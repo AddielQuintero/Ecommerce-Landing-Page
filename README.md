@@ -1,2 +1,2 @@
-# addielquintero.github.io
-landing page with tailwind
+# Ecommerce-landing-page
+Ecommerce-landing-page-using-tailwind
