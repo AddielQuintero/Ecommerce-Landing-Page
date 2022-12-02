@@ -1,2 +1,2 @@
 # Ecommerce-landing-page
-Ecommerce-landing-page-using-tailwind
+See project in https://ecommerce-landing-page-phi.vercel.app/
