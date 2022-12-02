@@ -1,0 +1,190 @@
+@import "https://fonts.googleapis.com/css?family=Muli:400,700|Poppins:400,600";
+
+html {
+    box-sizing: border-box;
+    font-family: sans-serif;
+    line-height: 1.15;
+    -webkit-text-size-adjust: 100%
+}
+
+.container {
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 15px;
+    padding-left: 15px
+}
+
+@media(min-width:576px) {
+    .container {
+        max-width: 576px
+    }
+}
+
+@media(min-width:768px) {
+    .container {
+        max-width: 768px
+    }
+  }
+
+@media(min-width:992px) {
+    .container {
+        max-width: 992px
+    }
+    .wave-cornflower {
+        background-image: url(../img/wave-cornflower.webp),linear-gradient(180deg,#fff,#fff 208px,#eff0fa 0,#fff);
+    }
+}
+
+@media(min-width:1170px) {
+    .container {
+        max-width: 1170px
+    }
+}
+
+.wave-cornflower {
+    background-position: top;
+    background-repeat: repeat-x,no-repeat;
+    background-image: url(../img/wave-cornflower@mobile.png),linear-gradient(180deg,#fff,#fff 104px,#eff0fa 0,#fff);
+}
+
+svg, img {
+    display: inline;
+    vertical-align: middle
+}
+
+.max-w-fhd {
+    max-width: 1920px
+}
+
+.h-header {
+    height: 690px
+}
+
+.font-heading {
+    font-family: Poppins, serif
+}
+
+.font-body {
+    font-family: Muli, serif
+}
+
+.text-grey {
+    color: #5f5f5f
+}
+
+.text-green{
+   color: #6bd509!important
+}
+
+.text-orange{
+    color: #fbba00
+    /*color: #fc2e5a;*/
+}
+
+.text-pink{
+    color: #f95ca3
+}
+
+.text-red {
+    color: #e3342f
+}
+
+.text-white {
+    color: #fff
+}
+
+.text-yellow {
+    color: #fffc82
+}
+
+.text-blue {
+    color: #4285f4
+}
+
+.text-black{
+    color: #000000;
+}
+
+.text-blue-lightest {
+    color: #f8f8fd
+}
+
+.text-1xl {
+    font-size: 1.2rem;
+}
+
+.bg-grey-lighter {
+    background-color: #f1f5f8;
+}
+
+.tracking-xs {
+    letter-spacing: -.021em
+}
+
+.tracking-sm {
+    letter-spacing: -.012em
+}
+
+.tracking-lg {
+    letter-spacing: .021em
+}
+
+.tracking-xxl {
+    letter-spacing: .126em
+}
+
+.max-w-none {
+    max-width: none
+}
+
+.text-grey-darker {
+    color: #606f7b;
+}
+
+.border-grey-lighter {
+    border-color: #f1f5f8;
+}
+
+.shadow-lg {
+    box-shadow: 0 15px 30px 0 rgba(0, 0, 0, .11), 0 5px 15px 0 rgba(0, 0, 0, .08);
+}
+
+.shadow-p{
+    box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.12);
+}
+
+.btn-primary {
+    /*background-color: #436fa8;*/
+    background-color: #009dac;
+    color: #fff;
+    padding: .75rem 2rem;
+    border-radius: 9999px;
+    text-decoration: none;
+    font-family: Cabin,sans-serif;
+    text-transform: uppercase;
+    font-size: .8125rem;
+}
+
+.svg-property{
+    fill: #f1f5f8;
+    display: block;
+    margin: -1px;
+}
+
+.transition {
+    -webkit-transition: all .15s ease;
+    transition: all .15s ease;
+}
+
+.separator {
+    height: 20px;
+    width: 1px;
+    background-color: #CCCCCC;
+}
+
+@media(min-width:768px) {       
+    .md\:tracking-sm {
+        letter-spacing: -.012em
+    } 
+}
